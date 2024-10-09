@@ -2,6 +2,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2408.00544-b31b1b.svg)](https://arxiv.org/abs/2408.00544)
 
+The paper associated with this work has been accepted for publication in [*IEEE Latin America Transactions*](https://latamt.ieeer9.org/index.php/transactions) (Submission ID: 9172).
+
 This repository contains the code and selected outputs for the project on using Latent Diffusion Modeling (LDM) to generate illustrations for classic Brazilian literary works. The approach leverages the Stable Diffusion XL model to create visual interpretations of scenes, characters, and settings from the books.
 
 ## Contents
@@ -87,6 +89,10 @@ Consider citing our work:
       url={https://arxiv.org/abs/2408.00544}, 
 }
 ```
+
+## License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material as long as appropriate credit is given.
 
 ## Contact
 
