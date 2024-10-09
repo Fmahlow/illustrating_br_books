@@ -1,6 +1,6 @@
 # Illustrating Classic Brazilian Books using a Text-To-Image Diffusion Model
 
-[![arXiv](https://img.shields.io/badge/arXiv-2408.00544-b31b1b.svg)](https://arxiv.org/abs/2408.00544
+[![arXiv](https://img.shields.io/badge/arXiv-2408.00544-b31b1b.svg)](https://arxiv.org/abs/2408.00544)
 
 This repository contains the code and selected outputs for the project on using Latent Diffusion Modeling (LDM) to generate illustrations for classic Brazilian literary works. The approach leverages the Stable Diffusion XL model to create visual interpretations of scenes, characters, and settings from the books.
 
