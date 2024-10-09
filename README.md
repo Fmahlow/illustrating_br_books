@@ -1,5 +1,7 @@
 # Illustrating Classic Brazilian Books using a Text-To-Image Diffusion Model
 
+[![arXiv](https://img.shields.io/badge/arXiv-2408.00544-b31b1b.svg)](https://arxiv.org/abs/2408.00544
+
 This repository contains the code and selected outputs for the project on using Latent Diffusion Modeling (LDM) to generate illustrations for classic Brazilian literary works. The approach leverages the Stable Diffusion XL model to create visual interpretations of scenes, characters, and settings from the books.
 
 ## Contents
@@ -43,11 +45,11 @@ pip install torch diffusers pillow
    - **Base Image Generation**: Uses the base model to create initial images.
    - **Image Refinement**: Utilizes the refiner model to enhance image quality.
 
-   Modify the `lista_de_prompts` variable if you wish to use different prompts.
+   Modify the `list_prompts` variable if you wish to use different prompts.
 
 3. **Run the Script**
 
-   Execute the script to generate images. The images will be saved in the specified output directory (`imgs_geradas_sertoes/`), as an example.
+   Execute the script to generate images. The images will be saved in the specified output directory (`gen_imgs/`).
 
    ```bash
    python gen_images.py

@@ -17,14 +17,14 @@ refiner = DiffusionPipeline.from_pretrained(
 )
 refiner.to("cuda")
 
-lista_de_prompts = ["A painting of Brazilian caatinga as a lush valley, with a vast orchard. Vibrant hues of the trees contrast with the arid landscape around, digital art", 
+list_prompts = ["A painting of Brazilian caatinga as a lush valley, with a vast orchard. Vibrant hues of the trees contrast with the arid landscape around, digital art", 
                     "A painting of Brazilian caatinga as a dry land, some cracks in the soil, leafless trees and cactus. The sun shines in the sky, digital art",
                     "A painting of Brazilian caatinga as a lush valley, yet with some dry land aspects. Animals from caatinga in the background (tapir, suçuarana, seriemas). Digital art",
                     "A painting of a man from the Brazilian backlands. He is a determined person, yet his countenance reflects the harsh life in the backlands, 19th century, realis",
                     "A painting of a Brazilian army expedition in the arid Brazilian caatinga, with calvary and war cannons, 19th century, realism"]
 
 num_samples = 300
-for i in lista_de_prompts:
+for i in list_prompts:
     for j in range(1, num_samples+1):
         print(j)
         image = base(
@@ -39,4 +39,4 @@ for i in lista_de_prompts:
             denoising_start=0.8,
             image=image,
         ).images[0]
-        image.save(f"imgs_geradas_sertoes/{i[0:200]}_{j}.jpg")
+        image.save(f"gen_imgs/{i[0:200]}_{j}.jpg")
