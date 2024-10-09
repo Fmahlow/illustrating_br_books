@@ -74,7 +74,7 @@ The selected literary works are from prominent Brazilian authors and include:
 
 ## How to Cite
 
-If you use this code or data, please cite our work:
+Consider citing our work:
 
 ```bibtex
 @misc{mahlow2024illustratingclassicbrazilianbooks,
