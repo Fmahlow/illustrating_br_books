@@ -72,6 +72,22 @@ The selected literary works are from prominent Brazilian authors and include:
 - *Os Sertões* by Euclides da Cunha
 - *O Triste Fim de Policarpo Quaresma* by Lima Barreto
 
+## How to Cite
+
+If you use this code or data, please cite our work:
+
+```bibtex
+@misc{mahlow2024illustratingclassicbrazilianbooks,
+      title={Illustrating Classic Brazilian Books using a Text-To-Image Diffusion Model}, 
+      author={Felipe Mahlow and André Felipe Zanella and William Alberto Cruz Castañeda and Regilene Aparecida Sarzi-Ribeiro},
+      year={2024},
+      eprint={2408.00544},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2408.00544}, 
+}
+```
+
 ## Contact
 
 For questions, suggestions, or requests for the full image dataset, please contact Felipe Mahlow at [felipe.mahlow@gmail.com](mailto:felipe.mahlow@gmail.com).
