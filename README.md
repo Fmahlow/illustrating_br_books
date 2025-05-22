@@ -1,8 +1,8 @@
 # Illustrating Classic Brazilian Books using a Text-To-Image Diffusion Model
 
-[![arXiv](https://img.shields.io/badge/arXiv-2408.00544-b31b1b.svg)](https://arxiv.org/abs/2408.00544)
+[![arXiv](https://img.shields.io/badge/arXiv-2408.00544-b31b1b.svg)](https://arxiv.org/abs/2408.00544) [![IEEE Xplore](https://img.shields.io/badge/IEEE%20LATAM-10789626-blue.svg)](https://ieeexplore.ieee.org/abstract/document/10789626)
 
-The paper associated with this work has been accepted for publication in [*IEEE Latin America Transactions*](https://latamt.ieeer9.org/index.php/transactions) (Submission ID: 9172).
+The paper associated with this work has been published in [*IEEE Latin America Transactions*](https://ieeexplore.ieee.org/abstract/document/10789626).
 
 This repository contains the code and selected outputs for the project on using Latent Diffusion Modeling (LDM) to generate illustrations for classic Brazilian literary works. The approach leverages the Stable Diffusion XL model to create visual interpretations of scenes, characters, and settings from the books.
 
@@ -79,14 +79,16 @@ The selected literary works are from prominent Brazilian authors and include:
 Consider citing our work:
 
 ```bibtex
-@misc{mahlow2024illustratingclassicbrazilianbooks,
-      title={Illustrating Classic Brazilian Books using a Text-To-Image Diffusion Model}, 
-      author={Felipe Mahlow and André Felipe Zanella and William Alberto Cruz Castañeda and Regilene Aparecida Sarzi-Ribeiro},
-      year={2024},
-      eprint={2408.00544},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2408.00544}, 
+@ARTICLE{10789626,
+  author={Rodrigues Perche Mahlow, Felipe and Zanella, André Felipe and Cruz Castañeda, William Alberto and Aparecida Sarzi-Ribeiro, Regilene},
+  journal={IEEE Latin America Transactions}, 
+  title={Illustrating Classic Brazilian Books using a Text-To-Image Diffusion Model}, 
+  year={2024},
+  volume={22},
+  number={12},
+  pages={1000-1008},
+  keywords={Artificial intelligence;Image synthesis;Diffusion models;Training;Visualization;Text to image;Noise reduction;Computational modeling;Refining;Ethics;image generation;diffusion models;text-to-image;illustration},
+  doi={10.1109/TLA.2024.10789626}
 }
 ```
 
